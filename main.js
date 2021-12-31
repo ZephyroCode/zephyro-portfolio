@@ -16,7 +16,7 @@ const changeLanguage = (language) => {
 }
 
 flagsElement.addEventListener('click', (e) => {
-  changeLanguage(e.target.parentElement.dataset.language);
+  changeLanguage(e.target.dataset.language);
 })
 
 
