@@ -1,0 +1,21 @@
+{
+  "profile": {
+    "role": "Front End Developer",
+    "description": "Web Developer en formación y en busca de nuevas experiencias y conocimientos. Siento pasión por las nuevas tecnologías y tengo gran interés en el diseño y el desarrollo de Videojuegos y aplicaciones, tanto móviles, como de escritorio.<br />Mi propósito es siempre estar en constante aprendizaje, desarrollar cada vez más mis habilidades, y ser capaz de cumplir cada tarea."
+  },
+  "hobbies": {
+    "first-hobbie-title": "Gaming",
+    "first-hobbie-description": "Me gusta pasar tiempo en videojuegos. En particular, me interesan los RPG, aunque siempre puedo probar otro tipo.",
+    "second-hobbie-title": "Lectura",
+    "second-hobbie-description": "Siento una gran fascinación por la lectura. Cualquier género me puede gustar, y siempre acepto recomendaciones de libros.",
+    "third-hobbie-title": "Shuffle Dance",
+    "third-hobbie-description": "Dedico tiempo a practicar Shuffle Dance. Es un estilo de baile que siempre me ha gustado."
+  },
+  "skills-card": {
+    "front-end-card-experience": "Años de Experiencia",
+    "language-card-title": "Idiomas",
+    "language-card-level": "Nivel",
+    "language-card-base-level": "Básico",
+    "language-card-high-level": "Nativo"
+  }
+}

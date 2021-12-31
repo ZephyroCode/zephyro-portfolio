@@ -1,0 +1,21 @@
+{
+  "profile": {
+    "role": "Front End Developer",
+    "description": "I'm a Web Developer looking for new experiences and knowledge. I'm very passionate about new technologies and I'm really interested in design and Videogames/Apps Development.<br />My objective is always be learning, improve my skills, and be able to complete any task."
+  },
+  "hobbies": {
+    "first-hobbie-title": "Gaming",
+    "first-hobbie-description": "I like to spend some time in Videogames. Especially RPG, but I'm always open to try other games.",
+    "second-hobbie-title": "Reading",
+    "second-hobbie-description": "I have a great fascination for reading. I can like any gender, and I'm always open to new books recommendations.",
+    "third-hobbie-title": "Shuffle Dance",
+    "third-hobbie-description": "I spend some time practicing Shuffle Dance. I have always liked that kind of dance."
+  },
+  "skills-card": {
+    "front-end-card-experience": "Years of Experience",
+    "language-card-title": "Languages",
+    "language-card-level": "Level",
+    "language-card-base-level": "Basic",
+    "language-card-high-level": "Native"
+  }
+}

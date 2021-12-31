@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./resources/fa-icons/all.css" />
+    <link rel="icon" href="./assets/logo.ico" type="image/png" sizes="16x16" />
+    <meta
+      name="description"
+      content="Wilver 'Zephyro' Salazar's Portfolio Website"
+    />
+    <meta name="author" content="Wilver 'Zephyro' Salazar" />
+    <title>Zephyro Code</title>
+  </head>
+  <body class="dark">
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img
+            id="toggle-icon"
+            src="./assets/img/icons/moon.svg"
+            alt="Theme Icon"
+            class="toggle-theme__icon"
+          />
+          <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+        </div>
+      </div>
+      <h1 class="header__title">Zephyro Code</h1>
+      <div id="flags" class="flags">
+        <div class="flags__item" data-language>
+          <img
+            src="./assets/img/icons/es.svg"
+            class="flags__img"
+            alt="ES Flag"
+            data-language="es"
+          />
+          <img
+            src="./assets/img/icons/gb.svg"
+            class="flags__img"
+            alt="EN Flag"
+            data-language="en"
+          />
+        </div>
+      </div>
+      <div id="toggle-colors" class="colors">
+        <div
+          data-color="hsl(137, 73%, 61%)"
+          class="colors__item colors__item--green"
+        ></div>
+        <div
+          data-color="hsl(276, 84%, 56%)"
+          class="colors__item colors__item--purple"
+        ></div>
+        <div
+          data-color="hsl(317, 77%, 70%)"
+          class="colors__item colors__item--pink"
+        ></div>
+        <div
+          data-color="hsl(174, 59%, 55%)"
+          class="colors__item colors__item--turquoise"
+        ></div>
+        <div
+          data-color="hsl(0, 61%, 59%)"
+          class="colors__item colors__item--red"
+        ></div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="column column--left">
+        <!-- Profile Card -->
+        <article class="card card--profile">
+          <div class="card__image-container">
+            <img
+              src="./assets/img/profile.jpg"
+              alt="Wilver 'Zephyro' Salazar"
+            />
+          </div>
+          <div class="card__header">
+            <h2 class="card__title no-margin">Wilver Salazar</h2>
+            <p class="card__subtitle" data-section="profile" data-value="role">
+              Front End Developer
+            </p>
+          </div>
+          <div class="card__body">
+            <div class="card__link">
+              <i class="fas fa-envelope icon"></i>
+              <a href="mailto:royceskycraft@gmail.com"
+                >RoyceSkyCraft@gmail.com</a
+              ><br />
+              <i class="fas fa-phone-alt icon"></i>
+              <a href="tel:+584124204128">+58 412 4204128</a>
+            </div>
+            <p
+              class="card__text"
+              data-section="profile"
+              data-value="description"
+            >
+              Web Developer en formación y en busca de nuevas experiencias y
+              conocimientos. Siento pasión por las nuevas tecnologías y tengo
+              gran interés en el diseño y el desarrollo de Videojuegos y
+              aplicaciones, tanto móviles, como de escritorio.<br />
+              Mi propósito es siempre estar en constante aprendizaje,
+              desarrollar cada vez más mis habilidades, y ser capaz de cumplir
+              cada tarea.
+            </p>
+          </div>
+        </article>
+        <!-- Experience Cards -->
+        <!-- <article class="card card--experience">
+          <h2 class="card__title">Experiencias</h2>
+          <div class="experience">
+            <img
+              src="./assets/img/zephyrocode-logo.png"
+              alt="Zephyro Code Logo"
+              class="experience__image"
+            />
+            <div class="experience__info">
+              <p class="experience__time">July 2021 - Current</p>
+              <h3 class="experience__job">Front End Developer</h3>
+              <p class="experience__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At,
+                veniam distinctio nesciunt maxime dicta eligendi debitis in non
+                molestias officiis facilis officia excepturi nostrum dolores.
+              </p>
+            </div>
+          </div>
+        </article> -->
+        <!-- Hobbies Cards -->
+        <article class="card card--hobbies">
+          <h2 class="card__title">Hobbies</h2>
+          <div class="hobbies">
+            <div class="card__image-container">
+              <img src="./assets/img/games-hobbie.jpg" alt="Videogames" />
+            </div>
+            <h3
+              class="hobbies__title"
+              data-section="hobbies"
+              data-value="first-hobbie-title"
+            >
+              Gaming
+            </h3>
+            <p
+              class="card__text"
+              data-section="hobbies"
+              data-value="first-hobbie-description"
+            >
+              Me gusta pasar tiempo en videojuegos. En particular, me interesan
+              los RPG, aunque siempre puedo probar otro tipo.
+            </p>
+          </div>
+          <div class="hobbies">
+            <div class="card__image-container">
+              <img src="./assets/img/reading-hobbie.jpg" alt="Libro" />
+            </div>
+            <h3
+              class="hobbies__title"
+              data-section="hobbies"
+              data-value="second-hobbie-title"
+            >
+              Lectura
+            </h3>
+            <p
+              class="card__text"
+              data-section="hobbies"
+              data-value="second-hobbie-description"
+            >
+              Siento una gran fascinación por la lectura. Cualquier género me
+              puede gustar, y siempre acepto recomendaciones de libros.
+            </p>
+          </div>
+          <div class="hobbies">
+            <div class="card__image-container">
+              <img src="./assets/img/shuffle-hobbie.jpg" alt="Shuffle Dance" />
+            </div>
+            <h3
+              class="hobbies__title"
+              data-section="hobbies"
+              data-value="third-hobbie-title"
+            >
+              Shuffle Dance
+            </h3>
+            <p
+              class="card__text"
+              data-section="hobbies"
+              data-value="third-hobbie-description"
+            >
+              Dedico tiempo a practicar Shuffle Dance. Es un estilo de baile que
+              siempre me ha gustado.
+            </p>
+          </div>
+        </article>
+      </section>
+      <!-- Right Column -->
+      <section class="column column--right">
+        <article class="card">
+          <h2 class="card__title no-margin">Front End</h2>
+          <small
+            data-section="skills-card"
+            data-value="front-end-card-experience"
+            >Años de Experiencia</small
+          >
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">1</span>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">HTML</p>
+              <div class="skills__bar skills__bar--55"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">CSS</p>
+              <div class="skills__bar skills__bar--45"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">JavaScript</p>
+              <div class="skills__bar skills__bar--35"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2
+            class="card__title no-margin"
+            data-section="skills-card"
+            data-value="language-card-title"
+          >
+            Idiomas
+          </h2>
+          <small data-section="skills-card" data-value="language-card-level"
+            >Nivel</small
+          >
+          <div class="skills">
+            <div class="skills__header">
+              <span
+                class="skills__start-level"
+                data-section="skills-card"
+                data-value="language-card-base-level"
+                >Básico</span
+              >
+              <span
+                class="skills__start-level"
+                data-section="skills-card"
+                data-value="language-card-high-level"
+                >Nativo</span
+              >
+            </div>
+            <div class="skills">
+              <div class="skills__item">
+                <p class="skills__tech">Español</p>
+                <div class="skills__bar skills__bar--95"></div>
+              </div>
+              <div class="skills__item">
+                <p class="skills__tech">Inglés</p>
+                <div class="skills__bar skills__bar--70"></div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
