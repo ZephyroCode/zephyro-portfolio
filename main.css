@@ -180,6 +180,13 @@ body.dark {
   color: var(--primary-color);
 }
 
+.card__second-title {
+  margin: 0.5em 0;
+  font-size: 1.1rem;
+  color: var(--primary-color);
+  opacity: 0.8;
+}
+
 .card__subtitle {
   font-size: 0.9rem;
   opacity: 0.8;
@@ -192,6 +199,14 @@ body.dark {
 .card__text {
   font-size: 0.9rem;
   line-height: 1.37;
+}
+
+@media screen and (min-width: 721px) {
+  .card--project {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-column: 1 / -1;
+  }
 }
 
 .skills {
@@ -366,6 +381,71 @@ body.dark {
   margin: 0.5em 0;
   color: var(--primary-color);
   transition: var(--transition);
+}
+
+.project {
+  position: relative;
+}
+
+@media screen and (min-width: 721px) {
+  .project {
+    margin-left: 2em;
+  }
+}
+
+.project__tags {
+  width: 275px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5em 0 1.3em;
+  font-size: 0.65rem;
+}
+
+@media screen and (min-width: 721px) {
+  .project__tags {
+    width: 400px;
+    font-size: 0.75rem;
+  }
+}
+
+.project__tag {
+  padding: 0.4em 0.8em;
+  border-radius: var(--border-radius);
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+  transition: var(--transition);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 225px;
+}
+
+@media screen and (min-width: 721px) {
+  .buttons {
+    position: absolute;
+    bottom: 1em;
+  }
+}
+
+.button {
+  width: 100px;
+  line-height: 2.5;
+  text-align: center;
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+}
+
+.button--primary {
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+}
+
+.button--ghost {
+  background-color: transparent;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
 }
 
 .icon {

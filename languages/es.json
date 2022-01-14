@@ -16,6 +16,20 @@
     "language-card-title": "Idiomas",
     "language-card-level": "Nivel",
     "language-card-base-level": "Básico",
-    "language-card-high-level": "Nativo"
+    "language-card-high-level": "Nativo",
+    "language-card-first-language": "Español",
+    "language-card-second-language": "Inglés",
+    "other-skills-card-title": "Otras Habilidades",
+    "other-skills-card-level": "Nivel",
+    "other-skills-card-base-level": "Básico",
+    "other-skills-card-high-level": "Avanzado",
+    "other-skills-card-first-skill": "Traducción",
+    "other-skills-card-second-skill": "Redacción"
+  },
+  "projects": {
+    "first-project-first-text": "Este es mi primer proyecto. Quise hacer una página de noticias para poner en práctica mis conocimientos.",
+    "first-project-second-text": "Tengo planeado añadir más contenido al proyecto de modo que pueda ser un sitio web completo, en lugar de una simple página.",
+    "second-project-first-text": "Un proyeto simple que he hecho de Frontend Mentor, una tarjeta sencilla.",
+    "code-button": "Código"
   }
 }
